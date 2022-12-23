@@ -5,3 +5,6 @@ sudo cp homecam-client.sh /usr/bin/homecam-client/
 sudo systemctl start homecam-client
 
 sudo systemctl enable homecam-client
+
+
+#how to setup Wifi and others that uses raspi-config
