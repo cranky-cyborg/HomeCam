@@ -1,0 +1,13 @@
+[Unit]
+Description=[HomeCam] Edge camera streaming service
+
+[Service]
+ExecStart=/bin/bash /usr/bin/homecam-client/homecam-client.sh
+WorkingDirectory=/usr/bin/homecam
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=homecam
+
+[Install]
+WantedBy=multi-user.target
