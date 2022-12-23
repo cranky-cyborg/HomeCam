@@ -3,7 +3,7 @@ Description=[HomeCam] Edge camera streaming service
 
 [Service]
 ExecStart=/bin/bash /usr/bin/homecam-client/homecam-client.sh
-WorkingDirectory=/usr/bin/homecam
+WorkingDirectory=/usr/bin/homecam-client
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
