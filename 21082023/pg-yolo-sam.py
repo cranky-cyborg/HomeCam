@@ -1,5 +1,5 @@
 from ultralytics import FastSAM
-from ultralytics.yolo.fastsam import FastSAMPrompt
+from ultralytics.fastsam import FastSAMPrompt
 
 model = FastSAM('FastSAM.pt')
 model.info()  # display model information
