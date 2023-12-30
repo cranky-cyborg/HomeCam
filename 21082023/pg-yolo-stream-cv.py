@@ -1,7 +1,7 @@
 import time
 import cv2
 from ultralytics import YOLO
-from ultralytics.yolo.utils.plotting import Annotator, colors
+from ultralytics.utils.plotting import Annotator, colors
 
 model = YOLO('yolov8x.pt')
 model.info()  # display model information
